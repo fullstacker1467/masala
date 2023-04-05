@@ -943,8 +943,7 @@
 
 //  taxlash massive ==================================================
 
-
-// let arr = [3234, "salom", NaN, undefined, "hayir", "real", "barca"];
+// let arr = [3234, "arnold", NaN, undefined, "mary", "real", "barca"];
 // let str = [];
 // let num = [];
 // let und = [];
@@ -963,7 +962,6 @@
 // console.log(num);
 // console.log(und);
 
-
 //   filter bilan taxlash  ========================================================
 
 // let arr = [3234, "salom", NaN, undefined, "hayir", "real", "barca"];
@@ -976,3 +974,108 @@
 //   }
 // });
 // console.log(str);
+
+// ==================================================    object  =====================================
+
+// let ishga_yaroqli = [];
+// let odamlar = [
+//   {
+//     ism: "Zufar",
+//     fam: "Ahmadaliev",
+//     yosh: 18,
+//   },
+//   {
+//     ism: "Abror",
+//     fam: "Jumayev",
+//     yosh: 50,
+//   },
+//   {
+//     ism: "Ahror",
+//     fam: "Sotvoldiyev",
+//     yosh: 45,
+//   },
+//   {
+//     ism: "Samandar",
+//     fam: "Ahrorhonov",
+//     yosh: 63,
+//   },
+//   {
+//     ism: "Qoqonboy",
+//     fam: "Chustiy",
+//     yosh: 29,
+//   },
+// ];
+
+// odamlar.forEach(i => {
+//     if(i.yosh > 18 && i.yosh < 50){
+//         ishga_yaroqli.push(i)
+//     }
+// })
+// console.log(ishga_yaroqli);
+
+//   1
+
+// let talaba = [
+//   {
+//     ism: "Anvar",
+//     yosh: 14,
+//   },
+//   {
+//     ism: "Sodiq",
+//     yosh: 35,
+//   },
+//   {
+//     ism: "Shokir",
+//     yosh: 29,
+//   },
+//   {
+//     ism: "Jasur",
+//     yosh: 23,
+//   },
+// ];
+// let student = []
+
+// talaba.forEach(i => {
+//   if(i.yosh > 18){
+//     student.push(i)
+//   }
+// })
+// console.log(student);
+
+//   2
+
+// let ishchilar = [
+//   {
+//     ismi: "Mariam",
+//     jinsi: "ayol",
+//   },
+//   {
+//     ismi: "Rano",
+//     jinsi: "ayol",
+//   },
+//   {
+//     ismi: "Murod",
+//     jinsi: "erkak",
+//   },
+//   {
+//     ismi: "Akram",
+//     jinsi: "erkak",
+//   },
+//   {
+//     ismi: "Holida",
+//     jinsi: "ayol",
+//   },
+// ];
+// let ayollar = [];
+// let erkaklar = [];
+
+// ishchilar.forEach((i) => {
+//   if (i.jinsi === "erkak") {
+//     erkaklar.push(i);
+//   } else if (i.jinsi === "ayol") {
+//     ayollar.push(i);
+//   }
+// });
+// console.log(ayollar, erkaklar);
+
+
