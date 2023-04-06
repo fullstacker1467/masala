@@ -966,8 +966,6 @@
 
 // let arr = [3234, "salom", NaN, undefined, "hayir", "real", "barca"];
 // let str = [];
-// let num = [];
-// let und = [];
 // arr.filter((item) => {
 //   if (typeof item === "string") {
 //     str.push(item);
@@ -1076,6 +1074,69 @@
 //     ayollar.push(i);
 //   }
 // });
+
+// for(let i = 0 ; i < ishchilar.length ; i++){
+//       if (ishchilar[i].jinsi === "erkak") {
+//     erkaklar.push(ishchilar[i]);
+//   } else if (ishchilar[i].jinsi === "ayol") {
+//     ayollar.push(ishchilar[i]);
+//   }
+// }
 // console.log(ayollar, erkaklar);
 
+//      
 
+// let ishchilar = [
+//   {
+//     id: 1,
+//     ismi: "Mariam",
+//     jinsi: "ayol",
+//   },
+//   {
+//     id: 2,
+//     ismi: "Rano",
+//     jinsi: "ayol",
+//   },
+//   {
+//     id: 3,
+//     ismi: "Murod",
+//     jinsi: "erkak",
+//   },
+//   {
+//     id: 4,
+//     ismi: "Akram",
+//     jinsi: "erkak",
+//   },
+//   {
+//     id: 5,
+//     ismi: "Holida",
+//     jinsi: "ayol",
+//   },
+//   {
+//     id: 6,
+//     ismi: "Holida",
+//     jinsi: "ayol",
+//   },
+//   {
+//     id: 7,
+//     ismi: "Holida",
+//     jinsi: "ayol",
+//   },
+//   {
+//     id: 8,
+//     ismi: "Holida",
+//     jinsi: "ayol",
+//   },
+//   {
+//     id: 9,
+//     ismi: "Holida",
+//     jinsi: "ayol",
+//   },
+// ];
+// let toqlar = [];
+// ishchilar.forEach((i) => {
+//   if (i % 2 !== 0) {
+//     toqlar.push(i)
+//   }
+// });
+// console.log(toqlar);
