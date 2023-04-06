@@ -1084,7 +1084,7 @@
 // }
 // console.log(ayollar, erkaklar);
 
-//      
+//      3
 
 // let ishchilar = [
 //   {
@@ -1134,9 +1134,40 @@
 //   },
 // ];
 // let toqlar = [];
-// ishchilar.forEach((i) => {
-//   if (i % 2 !== 0) {
-//     toqlar.push(i)
-//   }
-// });
 // console.log(toqlar);
+
+//   =================================================== concat  ============================
+
+// const array1 = ['a', 'b', 'c'];
+// const array2 = ['d', 'e', 'f'];
+// const array3 = array1.concat(array2);
+// console.log(array3);
+
+//   ================================================  for of =========================================
+
+
+// let mevalar = ['anor', 'olma' , 'banan', 'shaftoli', 'urik']
+// for(let i of mevalar){
+//     console.log(i);
+// }
+
+
+//   ================================================  for in =========================================
+
+
+
+// let mevalar = ['anor', 'olma' , 'banan', 'shaftoli', 'urik']
+// for(let i in mevalar){
+//     console.log(i);
+// }
+
+
+// let meva = {
+//   nomi: "olma",
+//   narxi: 1200,
+//   vazni: 120,
+//   rangi: "qizil",
+// };
+// for (let i in meva) {
+//   console.log(i + ": " + meva[`${i}`] + ";");
+// }
