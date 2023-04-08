@@ -16,35 +16,41 @@
 // }
 // sikl(6,22,3)
 
-
-
 //                                                uyga vazifa
 
 //   1
 
 // let array = ['Murod' , 'Malik' , 'Lola' , 'Shaxlo', 'Fariz' , 'Bobur' , 'Shoxruh' , 'Suhrob']
+// let mass = ['Murod' , 'Malik' , 'Lola' , 'Shaxlo', 'Fariz' , 'Bobur' , 'Shoxruh' , 'Suhrob']
 
-// function add(a){
-//     massive1 = array.slice(0,array / 2)
-//     massive2 = array.slice(massive1, array.length)
-//     array.push(massive1 + 'salim' + massive2)
-//     return array
-// }   
+// function add(array, index ,element){
+//     massive1 = array.slice(0 ,index)
+//     massive2 = array.slice(index)
+//     massive1.push(element , ...massive2)
+//     return massive1
+// }
+// console.log(add(array , 5 ,'Salim'));
+// console.log(add(mass , 2 ,'Ravil'));
 
-// add(2)
-// console.log(add());
+//     2
 
+// function sikl(a , b , c) {
+// //     for(let i = a; i < b ; i+=c){
+// //        console.log(i);
+// //     }
+// // }
+// sikl(6,22,4)
 
 //   3
 
-// let array = [11 , 'hl' , 'ghfhgfhfd' , 3255 , 'q32432']
-// let num = []
-// let str = []
-// array.forEach(element => {
-//     if(typeof element === "string"){
-//         str.push(element)
-//     }else if(typeof element === 'number'){
-//         num.push(element)
+// let array = [112, "salom", "hayir", 3255, "sherbek"];
+// function typeSearcher(array, tip) {
+//   let box = [];
+//   for (let item of array) {
+//     if (typeof item === tip) {
+//       box.push(item);
 //     }
-// });
-// console.log(num , str);
+//   }
+//   return box;
+// }
+// console.log(typeSearcher(array, "number"));
